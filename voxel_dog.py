@@ -47,3 +47,4 @@ voxels[15:22, 11:12, 17:20], voxels[14:23, 10:12, 19:22]=  True, True
 ax.voxels(voxels)
 # ax.axis('off')
 ax.set_title('Voxel Dog')
+plt.savefig('dog.png', bbox_inches=None)
